@@ -1,0 +1,8 @@
+.desktop {
+  background-image: url("./assets/ubuntu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
