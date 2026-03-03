@@ -1,13 +1,12 @@
-import { useState } from 'react'
 import './App.css'
-import Taskbar from './components/Taskbar/Taskbar'
+import Topbar from './components/Topbar/Topbar'
 
 function App() {
 
   return (
     <>
       <div className='desktop'>
-        <Taskbar />
+        <Topbar />
       </div>
     </>
   )
