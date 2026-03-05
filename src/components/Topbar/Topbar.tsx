@@ -1,6 +1,7 @@
 import React from "react";
 import { OS_NAME, OS_SUBDESCRIPTION } from "../../contents/os";
 import styles from "./Topbar.module.css";
+import { Battery } from "@ubuntu-web/battery-indicator";
 
 class Topbar extends React.Component {
 
@@ -14,6 +15,7 @@ class Topbar extends React.Component {
                     <h5>{OS_NAME}</h5>
                     <span className={styles.topbarSubDescription}>{OS_SUBDESCRIPTION}</span>
                 </div>
+                <Battery />
             </div>
         );
     }
